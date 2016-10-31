@@ -1,0 +1,35 @@
+%% start of file `jdoe_publications.bib'.
+%% Copyright 2006 Xavier Danaux (xdanaux<AT>gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+@article{RSPCA,
+   Author = {Meng, D. Y. and Zhao, Q. and Xu, Z. B.},
+   Title = {Improve robustness of sparse PCA by L(1)-norm maximization},
+   Journal = {PATTERN RECOGNITION},
+   Volume = {45},
+   Number = {1},
+   Pages = {487-497},
+   DOI = {10.1016/j.patcog.2011.07.009},
+   Abstract = {Various sparse principal component analysis (PCA) methods have recently been proposed to enhance the interpretability of the classical PCA technique by extracting principal components (PCs) of the given data with sparse non-zero loadings. However, the performance of these methods is prone to be adversely affected by the presence of outliers and noises. To alleviate this problem, a new sparse PCA method is proposed in this paper. Instead of maximizing the L(2)-norm variance of the input data as the conventional sparse PCA methods, the new method attempts to capture the maximal L(1)-norm variance of the data, which is intrinsically less sensitive to noises and outliers. A simple algorithm for the method is specifically designed, which is easy to be implemented and converges to a local optimum of the problem. The efficiency and the robustness of the proposed method are theoretically analyzed and empirically verified by a series of experiments implemented on multiple synthetic and face reconstruction problems, as compared with the classical PCA method and other typical sparse PCA methods. (C) 2011 Elsevier Ltd. All rights reserved.},
+   Keywords = {Face recognition; Noise; Outlier; Principal component analysis; Robust; Sparsity; PRINCIPAL COMPONENT ANALYSIS; FACTORIZATION},
+   Year = {2012} }
+
+@article{DBLP:journals/corr/abs-1202-6562,
+  author    = {Deyu Meng and
+               Yee Leung and
+               Qian Zhao and
+               Zongben Xu},
+  title     = {Dictionary learning under global sparsity constraint},
+  journal   = {CoRR},
+  volume    = {abs/1202.6562},
+  year      = {2012},
+  ee        = {http://arxiv.org/abs/1202.6562},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+}
+
+
+%% end of file `jdoe_publications.bib'.

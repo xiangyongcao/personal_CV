@@ -1,0 +1,144 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                  % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.82]{geometry}
+\setlength{\hintscolumnwidth}{2.6cm}           % if you want to change the width of the column with the dates
+%\setlength{\maketitlenamewidth}{10cm}        % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\firstname{Xiangyong}
+\familyname{Cao}
+\title{PhD Candidate}              % optional, remove the line if not wanted
+\address{School of Mathematics and Statistics\\Xi'an Jiaotong University\\No.28, Xianning West Road\\}{Xi'an, P. R. China, 710049}
+%\address{No.28, Xianning West Road}{Xi'an, P. R. China, 710049}   % optional, remove the line if not wanted
+\mobile{+86~159~9167~3997}                     % optional, remove the line if not wanted
+\email{caoxiangyong45@gmail.com}                          % optional, remove the line if not wanted
+%\photo[64pt][0.4pt]{zhaoqian1}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Life is like a mirror. Smile at it, and it smiles back at you.}
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+\renewcommand*{\bibliographyitemlabel}{[{\arabic{enumiv}}]}
+%\makeatother
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Basic Information}
+\cvlistitem{Gender: Male}
+\cvlistitem{Date of Birth: April 5, 1990}
+\cvlistitem{Place of Birth: Chongqing, P. R. China}
+\cvlistitem{Citizenship: P. R. China}
+
+\section{Education}
+\cventry{2016.9 - present}{Doctor of Electrical Engineering}{Columbia University}{New York}{USA}{Supervisor: Prof. John Paisley}
+\cventry{2014.3 - 2016.9}{Doctor of Mathematics}{Xi'an Jiaotong University}{Xi'an}{P. R. China}{Supervisor: Prof. Zongben Xu}
+\cventry{2012.9 - 2014.2}{Master of Mathematics}{Xi'an Jiaotong University}{Xi'an}{P. R. China}{Supervisor: Prof. Zongben Xu}
+\cventry{2008.9 - 2012.6}{Bachelor of Science}{Xi'an Jiaotong University}{Xi'an}{P. R. China}{}
+
+\section{Bachelor thesis}
+\cvitem{title}{\emph{Research on the theoretical relationship between low-rank matrix factorization and robust principal component analysis }}
+\cvitem{supervisor}{Prof. Zongben Xu}
+%\cvitem{description}{Short thesis abstract}
+
+\renewcommand{\listitemsymbol}{}
+
+\section{Research Interest}
+\cvlistitem{Machine learning, Data Mining and Computer Vision. Current focuses:
+\begin{itemize}
+\item Low-rank matrix factorization
+\item Statistical Bayesian inference in machine learning
+\item Hyperspectral Image Denosing and Classification
+\item Social Network Analysis
+\item Deep Learning
+\end{itemize}
+}
+
+\section{Teaching Experience}
+\cventry{2012.3 - 2012.6}{Teaching Assistant}{School of Mathematics and Statistics, Xi'an Jiaotong University}{Xi'an}{P. R. China}{Subject:  Advanced Mathematics}
+
+\begin{thebibliography}{1}
+\bibitem{CD}
+\textbf{Xiangyong Cao}, Xiangyu Chang, and Zongben Xu.
+\newblock \textcolor[rgb]{0.00,0.00,1.00}{ Community Detection for Clustered Attributed Graphs via a Variational EM Algorithm.}
+\newblock {Proceedings of the 2014 International Conference on Big Data Science and Computing, 2014.}
+
+\bibitem{ICCV}
+\textbf{Xiangyong Cao}, Yang Chen, Qian Zhao, Deyu Meng, Yao Wang, Dong Wang, and Zongben Xu.
+\newblock \textcolor[rgb]{0.00,0.00,1.00}{Low-rank Matrix Factorization under General Mixture Noise Distributions.}
+\newblock {IEEE International Conference on Computer Vision}, 2015.
+
+\bibitem{TIP}
+\textbf{Xiangyong Cao}, Qian Zhao, Deyu Meng, Yang Chen and Zongben Xu.
+\newblock \textcolor[rgb]{0.00,0.00,1.00}{Robust Low-rank Matrix Factorization under General Mixture Noise Distributions.}
+\newblock {\em Transactions on Image Processing}, 2016.
+
+\bibitem{TIP}
+Xiangyu Chang, \textbf{Xiangyong Cao}, Dong Liang and Xiaolin Lu.
+\newblock \textcolor[rgb]{0.00,0.00,1.00}{ Model-based clustering with nonconvex penalty.}
+\newblock {\em IEEE International Conference on Cyber Technology in Automation, Control, and Intelligent Systems (CYBER)}, 2016.
+
+\bibitem{NC}
+\textbf{Xiangyong Cao}, Lin Xu, Deyu Meng, Qian Zhao, Zongben Xu.
+\newblock \textcolor[rgb]{0.00,0.00,1.00}{Integration of 3-Dimensional Discrete Wavelet Transform and Markov Random Field for Hyperspectral Image Classification.}
+\newblock {\em NeuroComputing Under Review}.
+
+\bibitem{PR}
+Jing Yao, \textbf{Xiangyong Cao}, Qian Zhao, Deyu Meng, Zongben Xu.
+\newblock \textcolor[rgb]{0.00,0.00,1.00}{Robust Subspace Clustering via Penalized Mixture of Gaussian.}
+\newblock {\em (co-first author) Pattern Recognition Under Review}.
+
+\bibitem{TC}
+Yang Chen, \textbf{Xiangyong Cao}, Qian Zhao, Deyu Meng,  Zongben Xu.
+\newblock \textcolor[rgb]{0.00,0.00,1.00}{Denoising Hyperspectral Image with Non-i.i.d Noise Structure.}
+\newblock {\em Transactions on Cybernatics Under Review}.
+
+\end{thebibliography}
+
+\section{Social Services}
+\cvitem{2014.3 - present}{\textbf{Monitor }of our PhD class at Xi'an Jiaotong University.}
+\cvitem{2012.9 - 2013.9}{\textbf{Monitor }of our graduate class at Xi'an Jiaotong University.}
+
+\section{Honors/Awards}
+\cventry{2013}{National Scholarship for Graduate students}{}{}{}{Awarded to the top 2\% graduate students at Xi'an Jiaotong University}
+\cventry{2012}{Excellent Graduate, Xi'an Jiaotong University}{}{}{}{Awarded to the top 10\% graduates at Xi'an Jiaotong University}
+\cventry{2009 \& 2011}{Excellent Student, Xi'an Jiaotong University}{}{}{}{Awarded to the top 10\% undergraduate students at Xi'an Jiaotong University}
+\cventry{2011}{National Scholarship for Encouragement}{}{}{}{Awarded to the top 5\% undergraduate students at Xi'an Jiaotong University}
+\cventry{2009 \& 2010}{Si Yuan Scholarship for excellent students}{}{}{}{Awarded to the top 15\% undergraduate students at Xi'an Jiaotong University}
+
+\section{Travel History}
+\cvlistitem{Chile, 2015}
+
+\section{Languages}
+\cvitemwithcomment{Mandarin}{Fluent}{Native}
+\cvitemwithcomment{English}{Good Level}{Passed College English Test Band 6}
+
+\section{Computer Skills}
+\cvitem{Platforms}{Windows}
+\cvitem{Languages}{Matlab, Mathematics}
+\cvitem{Others}{\LaTeX{}, Microsoft Office}
+
+
+\end{document}
