@@ -1,9 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.13)  24 OCT 2016 23:32
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.13)  21 DEC 2016 16:44
 entering extended mode
 **CV_XIANGYONG.tex
-
-("C:\Users\Xiangyong Cao\Desktop\Desktop\签证文档\CV和Research Plan\CAO_XI
-ANGYONG_CV\CV_XIANGYONG.tex"
+(F:\CAO_XIANGYONG_CV\CV_XIANGYONG.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
 (D:\Software\CTeX\MiKTeX\tex\latex\moderncv\moderncv.cls
@@ -567,9 +565,7 @@ Package hyperref Warning: Option `pdfpagelabels' has already been used,
 (hyperref)                setting the option has no effect on input line 46.
 
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 46.
-
-("C:\Users\Xiangyong Cao\Desktop\Desktop\签证文档\CV和Research Plan\CAO_XI
-ANGYONG_CV\CV_XIANGYONG.aux"
+(F:\CAO_XIANGYONG_CV\CV_XIANGYONG.aux
 
 LaTeX Warning: Label `TIP' multiply defined.
 
@@ -665,17 +661,15 @@ LaTeX Info: Redefining \ref on input line 46.
 LaTeX Info: Redefining \pageref on input line 46.
 LaTeX Info: Redefining \nameref on input line 46.
 
-("C:\Users\Xiangyong Cao\Desktop\Desktop\签证文档\CV和Research Plan\CAO_XI
-ANGYONG_CV\CV_XIANGYONG.out")
-("C:\Users\Xiangyong Cao\Desktop\Desktop\签证文档\CV和Research Plan\CAO_XI
-ANGYONG_CV\CV_XIANGYONG.out")
+(F:\CAO_XIANGYONG_CV\CV_XIANGYONG.out) (F:\CAO_XIANGYONG_CV\CV_XIANGYONG.out)
 \@outlinefile=\write3
 \pagenumberwidth=\skip68
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 46.
 \maketitledetailsbox=\box29
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 48.
- (D:\Software\CTeX\MiKTeX\tex\latex\lm\ot1lmr.fd
+
+(D:\Software\CTeX\MiKTeX\tex\latex\lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (D:\Software\CTeX\MiKTeX\tex\latex\microtype\mt-cmr.cfg
@@ -739,8 +733,7 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
  [3]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
 
-("C:\Users\Xiangyong Cao\Desktop\Desktop\签证文档\CV和Research Plan\CAO_XI
-ANGYONG_CV\CV_XIANGYONG.aux")
+(F:\CAO_XIANGYONG_CV\CV_XIANGYONG.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 144.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
 Package rerunfilecheck Info: File `CV_XIANGYONG.out' has not changed.
@@ -752,7 +745,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  8905 strings out of 495354
- 131332 string characters out of 3183355
+ 130584 string characters out of 3183355
  259915 words of memory out of 3000000
  11876 multiletter control sequences out of 15000+200000
  63286 words of font info for 66 fonts, out of 3000000 for 9000
